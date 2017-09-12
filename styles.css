@@ -1,12 +1,29 @@
 html {
   font-family: Verdana, Arial, Helvetica, sans-serif;
+  background: url(http://nzalaw.com/images/nza_background.jpg);
 }
 
 /* div .main-container */
 
-.main-container {
-  max-width: 960px;
-  margin: auto;l
+.main {
+  max-width: 828px;
+  margin: auto;
+  padding: 0 32px 0 32px;
+
+}
+
+.container {
+    padding: 0 32px 0 32px;
+    box-shadow: 0px 10px 20px #888;
+}
+
+.main-body {
+  max-width: 920px;
+  margin: auto;
+}
+
+.banner {
+  padding: 48px 0 16px 36px;
 }
 
 
@@ -20,10 +37,11 @@ nav hr {
 }
 
 nav {
-  max-width: 960px;
+  max-width: 828px;
   padding:0;
   margin:0;
   text-align: center;
+  font-size: .9em;
 }
 
 nav li {
@@ -31,6 +49,7 @@ nav li {
   text-align: center;
   padding:0;
   margin:0;
+  color: #c0c0c0;
 }
 
 nav li a {
@@ -42,8 +61,8 @@ nav li a {
 
 nav li a h2 {
   font-size: 1em;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 18px;
+  padding-right: 18px;
   padding-top: 3px;
   padding-bottom: 1px;
   margin:0 0 0 0;
@@ -54,7 +73,38 @@ nav li a:hover {
   text-decoration: none;
 }
 
+/* body */
+
+
+.col-8 {
+  margin: 0;
+  padding: 0;
+}
+
+.slideImg {
+  margin: 16px 0 0 0;
+  padding: 0;
+  display: inline;
+}
+
+aside {
+  background-color: #923530;
+  display: inline;
+  width: auto;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
 /* footer */
+
+footer hr {
+  padding:0;
+  margin:16px 0 0 0;
+  width: auto;
+  border-color: #000;
+}
+
 footer {
   color: #c0c0c0;
   text-align: center;
@@ -63,7 +113,7 @@ footer {
 footer p {
   padding: 1em 0 1em 0;
   text-align: center;
-  font-size: .7em;
+  font-size: .6em;
   display: inline;
   padding: 0 0.4em 0 0.4em;
 
