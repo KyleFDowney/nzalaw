@@ -72,7 +72,7 @@ footer p {
 
 
 footer a {
-  color: #c0c0c0;
+  color: #000;
   display: inline;
 }
 
@@ -80,4 +80,8 @@ footer a:hover {
   color: #91342f;
   text-decoration: none;
 
+}
+
+.legal {
+  color: #c0c0c0;
 }
