@@ -5,21 +5,32 @@ html {
 
 /* div .main-container */
 
+
+
 .main {
   max-width: 828px;
-  margin: auto;
+  min-width:828px;
+  margin: 0 auto 0 auto;
   padding: 0 32px 0 32px;
+}
 
+.block {
+  display: block;
 }
 
 .container {
     padding: 0 32px 0 32px;
     box-shadow: 0px 10px 20px #888;
+    width: 920px;
+    margin-bottom: 24px;
 }
 
 .main-body {
   max-width: 920px;
+  min-width: 920px;
   margin: auto;
+  padding: 22px 0 0 0;
+
 }
 
 .banner {
@@ -38,6 +49,7 @@ nav hr {
 
 nav {
   max-width: 828px;
+  min-width: 828px;
   padding:0;
   margin:0;
   text-align: center;
@@ -84,17 +96,51 @@ nav li a:hover {
 .slideImg {
   margin: 16px 0 0 0;
   padding: 0;
-  display: inline;
+  display: block;
+}
+
+.fiveseveneight {
+  width: 578px;
+}
+
+body div {
+  margin: 20px 0 0 0;
+  padding: 0;
+
+}
+
+body p {
+  font-size: .8em;
+}
+
+body h2 {
+  font-size: 1.2em;
 }
 
 aside {
   background-color: #923530;
   display: inline;
   float: right;
-  width: 30%;
-  height: 300px;
-  margin: 0;
+  width: 25%;
+  height: 360px;
+  margin: 0 92px 0 0;
+  padding: 16px;
+  color: #eee;
+  font-size: 0.8em;
+}
+
+aside hr {
+  border-color: #eee;
+}
+
+.contact {
+  display: block;
+  float: right;
+  margin: 20px 140px 0 0;
   padding: 0;
+  line-height: 0;
+  font-size: .85em;
+
 }
 
 /* footer */
